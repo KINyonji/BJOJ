@@ -1,4 +1,4 @@
-package com.codingTest;
+package BJOJ;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.codingTest;
+package BJOJ;
 
 public class B_2557 {
 

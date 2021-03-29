@@ -1,4 +1,4 @@
-package com.codingTest;
+package BJOJ;
 
 public class B_10718 {
     public static void main(String[] args) {
