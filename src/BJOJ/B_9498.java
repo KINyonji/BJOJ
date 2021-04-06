@@ -9,27 +9,16 @@ public class B_9498 {
         String exam = "";
 
         if (score >= 0 && score <= 100) {
-            switch (score/10){
-                case 10:
-                case 9:
-                    exam = "A";
-                    break;
-                case 8:
-                    exam = "B";
-                    break;
-                case 7:
-                    exam = "C";
-                    break;
-                case 6:
-                    exam = "D";
-                    break;
-                case 5:
-                case 4:
-                case 3:
-                case 2:
-                case 1:
-                    exam = "F";
-                    break;
+            if(score>=90){
+                exam = "A";
+            }else if (score>=80){
+                exam = "B";
+            }else if (score>=70){
+                exam = "C";
+            }else if (score>=60){
+                exam = "D";
+            }else {
+                exam = "F";
             }
             System.out.println(exam);
         }
