@@ -3,7 +3,7 @@ package BJOJ;
 import java.time.Year;
 import java.util.Scanner;
 
-public class B_2753 {
+public class J_2753 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int year = scanner.nextInt();
