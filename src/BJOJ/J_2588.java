@@ -8,7 +8,9 @@ public class J_2588 {
         int A = scanner.nextInt();
         int B = scanner.nextInt();
         System.out.println(A * (B % 10));
+        System.out.println((B % 10));
         System.out.println(A * ((B % 100) / 10));
+        System.out.println(((B % 100) / 10));
         System.out.println(A * ((B % 1000) / 100));
         System.out.println(A*B);
     }
