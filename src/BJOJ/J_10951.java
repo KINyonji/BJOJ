@@ -1,5 +1,4 @@
 package BJOJ;
-
 import java.io.*;
 import java.util.StringTokenizer;
 
@@ -27,3 +26,4 @@ public class J_10951 {
         bw.close();
     }
 }
+
