@@ -7,18 +7,19 @@ import java.io.InputStreamReader;
 public class J_2577 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int A = Integer.parseInt(br.readLine());
-        int B = Integer.parseInt(br.readLine());
-        int C = Integer.parseInt(br.readLine());
 
-        int sum = A*B*C;
-        String num = String.valueOf(sum);
-        String[] arr = num.split("");
+        int[] arr = new int[10];
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+        int val = Integer.parseInt(br.readLine())*Integer.parseInt(br.readLine())*Integer.parseInt(br.readLine());
+
+        String num = String.valueOf(val); //int를 String으로 변환
+
+        for (int i = 0; i < num.length(); i++) {
+            arr[(num.charAt(i)-48)]++; //charAt() 사용해서 문자열에서 문자를 하나씩 뽑고 아스키코드를 활용해 숫자로 만들어 ++ 세기
         }
 
-//        int arr[] =
+        for (int v : arr) {
+            System.out.println(v);
+        }
     }
 }
