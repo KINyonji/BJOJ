@@ -24,7 +24,7 @@ public class J_3052 {
         }
 
         for (int i = 0; i < counts.length; i++) {
-            if (counts[i] != 0) { 
+            if (counts[i] != 0) {
                 count++;
             }
         }
