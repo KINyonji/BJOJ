@@ -20,10 +20,10 @@ public class J_2577 {
         }
         System.out.println();
 
-//        int[] count = new int[10];
-//
-//        for (int i = 0; i < M.len; i++) {
-//
-//        }
+        int[] count = new int[10];
+
+        for (int i = 0; i < M.len; i++) {
+
+        }
     }
 }
